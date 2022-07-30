@@ -50,8 +50,8 @@
 }
 
 .btn_reveal:hover {
-  background: #FFC300;
-  box-shadow: 2px 2px 2px #FFE400
+  background: #ffc300;
+  box-shadow: 2px 2px 2px #ffe400;
 }
 
 .reveal h1 {
@@ -65,7 +65,7 @@
   font-weight: 300;
 }
 
-img{
+img {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -73,102 +73,102 @@ img{
   height: 30vh;
 }
 
-.dot-i{
+.dot-i {
   font-size: 10vmax;
   z-index: -10;
 }
 
-.i1{
+.i1 {
   position: absolute;
   top: 10%;
   left: 29%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
 
-.i2{
+.i2 {
   position: absolute;
-  top:15%;
+  top: 15%;
   left: 73%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
-.i3{
+.i3 {
   position: absolute;
   top: 18%;
   left: 45%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
-.i4{
+.i4 {
   position: absolute;
   top: 25%;
   left: 10%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
-.i5{
+.i5 {
   position: absolute;
   top: 30%;
   left: 83%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
-.i6{
+.i6 {
   position: absolute;
   top: 65%;
   left: 43%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
-.i7{
+.i7 {
   position: absolute;
   top: 40%;
   left: 15%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
-.i8{
+.i8 {
   position: absolute;
   top: 59%;
   left: 18%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
-.i9{
+.i9 {
   position: absolute;
   top: 50%;
   left: 79%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
-.i10{
+.i10 {
   position: absolute;
   top: 65%;
   left: 73%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
-.i11{
+.i11 {
   position: absolute;
   top: 75%;
   left: 90%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
-.i12{
+.i12 {
   position: absolute;
   top: 85%;
   left: 73%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
-.i13{
+.i13 {
   position: absolute;
   top: 71%;
   left: 9%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
-.i14{
+.i14 {
   position: absolute;
   top: 51%;
   left: 2%;
-  color: #ABC9FF;
+  color: #abc9ff;
 }
 
-.i15{
+.i15 {
   position: absolute;
   top: 1%;
   left: 9%;
-  color: #FF8B8B;
+  color: #ff8b8b;
 }
 
 input {
