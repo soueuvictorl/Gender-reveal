@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=DM+Sans:wght@400;700&family=Lobster+Two:wght@400;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caveat', 'Times New Roman', Times, serif;
+}
+
+.to_reveal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+.reveal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-135deg, #c6dce4, #abc9ff);
+  clip-path: circle(0px at calc(100% - 50%) 84.5%);
+  transition: all 3s ease-in-out;
+}
+
+#active:checked ~ .reveal {
+  clip-path: circle(75%);
+}
+
+.btn_reveal {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+  width: 5em;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  font-size: 2rem;
+  color: #ffffff;
+  background: #f2df3a;
+  cursor: pointer;
+}
+
+.btn_reveal:hover {
+  background: #ffffff;
+  color: #eb4747;
+}
+
+.reveal h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  font-size: 10vw;
+  font-weight: 300;
+}
+
+input {
+  display: none;
+}
