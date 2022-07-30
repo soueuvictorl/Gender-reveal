@@ -50,8 +50,8 @@
 }
 
 .btn_reveal:hover {
-  background: #ffffff;
-  color: #eb4747;
+  background: #FFC300;
+  box-shadow: 2px 2px 2px #FFE400
 }
 
 .reveal h1 {
