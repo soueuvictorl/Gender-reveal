@@ -71,6 +71,9 @@ img {
   left: 50%;
   transform: translate(-50%, -10%);
   height: 30vh;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
 }
 
 .dot-i {
