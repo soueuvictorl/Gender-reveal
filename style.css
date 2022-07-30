@@ -14,6 +14,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 5vmax;
+  z-index: 2;
 }
 
 .reveal {
@@ -25,6 +26,7 @@
   background: linear-gradient(-135deg, #c6dce4, #abc9ff);
   clip-path: circle(0px at calc(100% - 50%) 84.5%);
   transition: all 3s ease-in-out;
+  z-index: 10;
 }
 
 #active:checked ~ .reveal {
@@ -36,7 +38,7 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%);
-  z-index: 2;
+  z-index: 11;
   width: 5em;
   text-align: center;
   border-radius: 30px;
@@ -61,6 +63,104 @@
   color: #ffffff;
   font-size: 10vw;
   font-weight: 300;
+}
+
+.dot-i{
+  font-size: 10vmax;
+  z-index: -10;
+}
+
+.i1{
+  position: absolute;
+  top: 10%;
+  left: 29%;
+  color: #FF8B8B;
+}
+
+.i2{
+  position: absolute;
+  top:15%;
+  left: 73%;
+  color: #ABC9FF;
+}
+.i3{
+  position: absolute;
+  top: 18%;
+  left: 45%;
+  color: #FF8B8B;
+}
+.i4{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: #ABC9FF;
+}
+.i5{
+  position: absolute;
+  top: 30%;
+  left: 83%;
+  color: #FF8B8B;
+}
+.i6{
+  position: absolute;
+  top: 65%;
+  left: 43%;
+  color: #ABC9FF;
+}
+.i7{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  color: #FF8B8B;
+}
+.i8{
+  position: absolute;
+  top: 59%;
+  left: 18%;
+  color: #ABC9FF;
+}
+.i9{
+  position: absolute;
+  top: 50%;
+  left: 79%;
+  color: #FF8B8B;
+}
+.i10{
+  position: absolute;
+  top: 65%;
+  left: 73%;
+  color: #ABC9FF;
+}
+.i11{
+  position: absolute;
+  top: 75%;
+  left: 90%;
+  color: #FF8B8B;
+}
+.i12{
+  position: absolute;
+  top: 85%;
+  left: 73%;
+  color: #ABC9FF;
+}
+.i13{
+  position: absolute;
+  top: 71%;
+  left: 9%;
+  color: #FF8B8B;
+}
+.i14{
+  position: absolute;
+  top: 51%;
+  left: 2%;
+  color: #ABC9FF;
+}
+
+.i15{
+  position: absolute;
+  top: 1%;
+  left: 9%;
+  color: #FF8B8B;
 }
 
 input {
