@@ -47,6 +47,7 @@
   color: #ffffff;
   background: #f2df3a;
   cursor: pointer;
+  box-shadow: none;
 }
 
 .btn_reveal:hover {
@@ -77,7 +78,8 @@ img {
 }
 
 .dot-i {
-  font-size: 10vmax;
+
+  font-size: 10vmin;
   z-index: -10;
 }
 
