@@ -56,13 +56,21 @@
 
 .reveal h1 {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #ffffff;
-  font-size: 10vw;
+  font-size: 5vmax;
   font-weight: 300;
+}
+
+img{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  height: 30vh;
 }
 
 .dot-i{
